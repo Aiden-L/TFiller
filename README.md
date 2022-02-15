@@ -1,37 +1,22 @@
 # TFiller
 
 #### 介绍
-模拟输入的自动填表工具，拥有图形化UI
+模拟输入的自动填表工具，拥有图形化UI，可以保存之前的填写结果，支持存储多表结果
 
 #### 软件架构
-软件架构说明
-
+* python: 3.9
+* UI: tkinter
+* module: win32api
 
 #### 安装教程
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
+1.  `pip install -r requirements.txt`
+2.  `python TFillerFree.py`
 
 #### 使用说明
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### 参与贡献
-
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
-
-
-#### 特技
-
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
-5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+1. 下载release中的exe文件运行
+2. 右栏输入框填写需要填写的内容，每空一行
+3. 需要保存时在下方输入文件名，点击保存，可以看到左栏中已经出现保存的表单信息
+4. 点击左栏保存的表单可以切换当前的表单并可以在右侧编辑
+5. 需要删除时，选中保存的表单，点击删除
+6. 点击执行，可以执行右侧表单中的自动填写，程序将在点击后3秒进行自动填写，需在3秒内将鼠标光标聚焦于需要填写的位置
+7. 祝：使用愉快
