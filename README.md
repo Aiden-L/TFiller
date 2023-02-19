@@ -2,6 +2,7 @@
 
 #### 介绍
 模拟输入的自动填表工具，拥有图形化UI，可以保存之前的填写结果，支持存储多表结果
+
 最新更新已转移到仓库 [https://gitee.com/xingzhouren/tfiller](https://gitee.com/xingzhouren/tfiller)
 
 label: 自动填表工具，批量填表
